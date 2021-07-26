@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-size: 21px;
   font-weight: 300;
+  margin: 0;
 }
 
 .container {
@@ -39,4 +40,14 @@ h2 {
 h3 {
   font-size: 36px;
   font-weight: 900;
+}
+
+.inverse {
+  color: #fff;
+  background: #252525;
+}
+
+header,
+section {
+    padding: 100px 0;
 }
