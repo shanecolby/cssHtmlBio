@@ -109,15 +109,16 @@ section {
 }
 
 #open-modal, #close-modal {
-  background-color: royalblue;
+  background-color: #c4c4c4;
   color: white;
   padding: 15px;
   font-size: 20px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 #modal {
-  background-color: orange;
+  background-color: #99D930;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
@@ -130,11 +131,15 @@ section {
   display: none;
   width: auto;
   height: auto;
-  position: absolute;
+  position:fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: black;
   
+}
+
+#contact-info {
+  color: aqua;
 }
