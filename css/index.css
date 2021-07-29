@@ -143,3 +143,8 @@ section {
 #contact-info {
   color: aqua;
 }
+
+#close-modal:hover {
+  background: #252525;
+  color: #fff;
+}
