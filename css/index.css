@@ -122,15 +122,15 @@ section {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  height: 200px;
+  height: 320px;
   position: relative;
   top: 30%;
 }
 
 #overlay {
   display: none;
-  width: auto;
-  height: auto;
+  width: full;
+  height: full;
   position:fixed;
   top: 0;
   right: 0;
