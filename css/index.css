@@ -113,10 +113,10 @@ a:hover {
 #open-modal, #close-modal, #close-modal_port {
   background-color: #c4c4c4b6;
   color: white;
-  padding: 10px;
+  padding: 6px;
   font-size: 20px;
   cursor: pointer;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 #modal {
@@ -159,7 +159,7 @@ a:hover {
 
 
 #contact-info {
-  color: aqua;
+  color: rgb(7, 22, 231);
 }
 
 #close-modal:hover {
@@ -172,9 +172,16 @@ a:hover {
   background: none;
   text-decoration: none;
 
-  color: aqua;
+}
+
+
+
+#close-modal_port:hover {
+  background: #252525;
+  color: #fff;
 
 }
+
 
 
 
@@ -182,5 +189,29 @@ a:hover {
   border-top: solid 2px #868686;
   border-bottom: solid 2px #868585;
 }
+
+#portfolio-modal {
+  cursor: pointer;
+
+}
+
+.project_list {
+  color: white;
+  list-style-type: disc;
+}
+
+
+.project_link a {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.project_link a:hover {
+  color: rgb(18, 59, 192);
+}
+
+
 
 
