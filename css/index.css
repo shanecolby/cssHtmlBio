@@ -111,12 +111,14 @@ a:hover {
 
 
 #open-modal, #close-modal, #close-modal_port {
+  position: absolute;
   background-color: #c4c4c4b6;
   color: white;
   padding: 6px;
   font-size: 20px;
   cursor: pointer;
-  margin-top: 50px;
+  margin: .5em -2em;
+
 }
 
 #modal {
