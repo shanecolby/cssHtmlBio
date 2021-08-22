@@ -110,7 +110,7 @@ a:hover {
 
 
 
-#open-modal, #close-modal {
+#open-modal, #close-modal, #close-modal_port {
   background-color: #c4c4c4b6;
   color: white;
   padding: 10px;
@@ -142,6 +142,22 @@ a:hover {
   
 }
 
+#overlay2 {
+  display: none;
+  width: full;
+  height: full;
+  position:fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  
+}
+
+
+
+
 #contact-info {
   color: aqua;
 }
@@ -152,7 +168,13 @@ a:hover {
 }
 
 
+#portfolio-btn {
+  background: none;
+  text-decoration: none;
 
+  color: aqua;
+
+}
 
 
 
