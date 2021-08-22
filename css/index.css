@@ -80,8 +80,7 @@ section {
 .shaneImg {
   width: 250px;
   height: 295px;
-  border-radius: 65%;
-  border: 8px solid white;
+  border: 2px solid white;
 }
 
 .btn {
