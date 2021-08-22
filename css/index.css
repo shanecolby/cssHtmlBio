@@ -53,15 +53,8 @@ p {
   margin-bottom: 0;
 }
 
-a {
-  color: #99D930;
-  font-weight: 900;
-}
 
-a:hover,
-a:focus {
-  color: #131313;
-}
+
 
 .small-text {
   font-size: 16px;
@@ -94,8 +87,7 @@ section {
 .btn {
   font-weight: 900;
   display: inline-block;
-  background-color: turquoise;
-  padding: 8px 16px;
+  padding: 4px 8px;
   text-decoration: none;
   background: #99D930;
   margin-top: 20px;
@@ -108,13 +100,24 @@ section {
     color: #fff;
 }
 
-#open-modal, #close-modal {
-  background-color: #c4c4c4;
+a {
+  color: #99D930;
+  text-decoration: none;
+}
+
+a:hover {
   color: white;
-  padding: 15px;
+}
+
+
+
+#open-modal, #close-modal {
+  background-color: #c4c4c4b6;
+  color: white;
+  padding: 10px;
   font-size: 20px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 #modal {
@@ -149,11 +152,8 @@ section {
   color: #fff;
 }
 
-#gitHubBtn {
-  margin: 20px;
-  color: #252525;
-  text-decoration: none;
-}
+
+
 
 
 
@@ -161,3 +161,5 @@ section {
   border-top: solid 2px #868686;
   border-bottom: solid 2px #868585;
 }
+
+
