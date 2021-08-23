@@ -79,7 +79,7 @@ section {
 
 .shaneImg {
   width: 250px;
-  height: 295px;
+  height: 325px;
   border: 2px solid white;
 }
 
@@ -162,6 +162,10 @@ a:hover {
 
 #contact-info {
   color: rgb(7, 22, 231);
+}
+
+#contact-info:hover {
+  color: rgb(255, 255, 255);
 }
 
 #close-modal:hover {
