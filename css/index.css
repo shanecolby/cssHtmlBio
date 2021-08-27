@@ -200,23 +200,28 @@ a:hover {
 }
 
 #portfolio-modal {
+
   cursor: pointer;
 
 }
 
 .project_list {
   color: white;
-  list-style-type: disc;
+  padding: 0;
+  list-style-type: none;
+  
 }
 
 
 .project_link a {
-  padding: 2px 8px;
-  max-width: fit-content;
+  padding: 0;
   color: rgb(255, 255, 255);
   font-weight: 800;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+ 
+
+  
 }
 
 .project_link a:hover {
