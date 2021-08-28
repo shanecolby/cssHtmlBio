@@ -164,6 +164,9 @@ a:hover {
 
 
 #contact-info {
+  padding: 0;
+  display: flex;
+  justify-content: center;
   color: rgb(7, 22, 231);
 }
 
