@@ -231,6 +231,9 @@ a:hover {
   color: rgb(18, 59, 192);
 }
 
+strong {
+  font-weight: 900;
+}
 
 
 
