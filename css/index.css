@@ -54,6 +54,7 @@ h3 {
 
 p {
   margin-bottom: 0;
+  letter-spacing: 2px;
 }
 
 
@@ -63,6 +64,13 @@ p {
   font-size: 16px;
   margin-top: 5px;
 } 
+
+.accent-text {
+  display: block;
+  color: #99D930;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+}
 
 .accent {
   color: #99D930;
@@ -234,6 +242,3 @@ a:hover {
 strong {
   font-weight: 900;
 }
-
-
-
