@@ -8,7 +8,7 @@ body {
 
 
 .container {
-  width: 575px;
+  width: 50vw;
   margin: 0 auto;
 }
 
@@ -245,9 +245,17 @@ strong {
 
 @media (min-width: 1000px) {
   .splitter {
-
     display: flex;
-    justify-content: space-around;
+  }
+  .recentWork {
+    background-color: #99D930;
+  }
+  .inverse {
+    color: #fff;
+    
+  }
+  a {
+    color: blue;
   }
   
 }
