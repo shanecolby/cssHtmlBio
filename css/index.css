@@ -8,7 +8,7 @@ body {
 
 
 .container {
-  width: 570px;
+  width: 575px;
   margin: 0 auto;
 }
 
@@ -241,4 +241,13 @@ a:hover {
 
 strong {
   font-weight: 900;
+}
+
+@media (min-width: 1000px) {
+  .splitter {
+
+    display: flex;
+    justify-content: space-around;
+  }
+  
 }
