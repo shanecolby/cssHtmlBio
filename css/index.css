@@ -14,6 +14,7 @@ body {
 
 .container {
   width: 50vw;
+  min-width: 250px;
   margin: 0 auto;
 }
 
@@ -77,11 +78,13 @@ p {
   letter-spacing: 2.5px;
 }
 
-.accent {
+.accent, 
+.accent-name {
   color: #99D930;
   font-size: 18px;
   font-weight: 900;
 }
+
 
 header,
 section {
@@ -142,7 +145,7 @@ a:hover {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  height: 320px;
+  height: 370px;
   position: relative;
   top: 30%;
 }
@@ -248,7 +251,7 @@ strong {
   font-weight: 900;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1150px) {
 
 
 
@@ -258,14 +261,23 @@ strong {
 
   .splitter {
     display: flex;
+    justify-content: space-around;
   }
+
   .recentWork {
     background-color: #99D930;
+    width: 100vw;
   }
+
+  .about-me {
+    width: 100vw;
+  }
+  
   .inverse {
     color: rgb(250, 250, 250);
     
   }
+
   a {
     color: blue;
   }
@@ -283,6 +295,12 @@ strong {
     color: black;
     font-size: 1em;
     font-weight: 700;
+  }
+
+  .container {
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 0 2em;
   }
 
 
