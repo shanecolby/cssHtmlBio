@@ -1,5 +1,5 @@
 
-document.getElementById("viewResume-btn").addEventListener("click", function () {
+document.getElementById("contactDetails-btn").addEventListener("click", function () {
   document.getElementById("overlay").style.display = "block";
 })
 
