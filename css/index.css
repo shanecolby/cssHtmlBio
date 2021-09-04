@@ -270,15 +270,26 @@ strong {
     color: blue;
   }
  
-  span {
-    color: pink;
+  h2 {
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
   }
+
+  .inverse-work {
+   color: black;
+  }
+
+  .accent-name {
+    color: black;
+    font-size: 1em;
+    font-weight: 700;
+  }
+
 
   
 }
 
-@media (min-width: 1260px) {
-  .container {
-    width: 500px;
-  }
-}
+
+
+  
+  
