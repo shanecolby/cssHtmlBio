@@ -62,6 +62,7 @@ h3 {
 p {
   margin-bottom: 0;
   letter-spacing: 2px;
+  line-height: 1.6;
 }
 
 
@@ -74,16 +75,22 @@ p {
 
 .accent-text {
   display: block;
-  color: #99D930;
+  color: #384086;
   font-weight: 900;
   letter-spacing: 2.5px;
 }
 
 .accent, 
 .accent-name {
-  color: #99D930;
+  color: #384086;
   font-size: 18px;
   font-weight: 900;
+}
+
+#modal-heading {
+  font-size: 1.75em;
+  letter-spacing: .06em;
+  text-transform: uppercase;
 }
 
 
@@ -94,7 +101,7 @@ section {
 
 .inverse {
   color: #fff;
-  background: #252525;
+  background: #7e7d7d;
 }
 
 .shaneImg {
@@ -104,24 +111,43 @@ section {
 }
 
 .btn {
-  border-radius: 1rem;
-  font-weight: 900;
-  display: inline-block;
-  padding: 4px 8px;
-  text-decoration: none;
-  background: linear-gradient(to left, #0feb08, #eff302);
-  margin-top: 20px;
+  background-color: rgba(66, 65, 65, 0.753);
+  border-radius: 4px;
+  border: 0;
+  color: #ffffff !important;
   cursor: pointer;
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 300;
+  height: 2.5rem;
+  letter-spacing: 0.2rem;
+  line-height: 2.5rem;
+  padding: 0 1.25rem 0 1.35rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .btn:hover,
 .btn:focus {
-    background: #252525;
-    color: #fff;
+  color: #fff;
+  background: #252525;
 }
 
+#contactDetails-btn {
+  margin-top: 3em;
+}
+
+#close-modal {
+  margin-top: 4em;
+}
+#close-modal_port {
+  margin-top: 4em;
+}
+
+
+
 a {
-  color: #99D930;
+  color: #384086;
   text-decoration: none;
 }
 
@@ -130,25 +156,9 @@ a:hover {
 }
 
 
-
-#open-modal, 
-#close-modal, 
-#close-modal_port {
-  position: center;
-  color: white;
-  font-size: 20px;
-  border-radius: 1rem;
-  font-weight: 400;
-  padding: 4px 8px;
-  text-decoration: none;
-  background: linear-gradient(to left, #161616, #d8d8d3);
-  margin-top: 20px;
-  cursor: pointer;
-
-}
-
 #modal {
-  background-color: #99D930;
+  border-radius: 1em;
+  background-color: #cacac6;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
@@ -166,7 +176,8 @@ a:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
   
 }
 
@@ -179,7 +190,8 @@ a:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
   
 }
 
@@ -190,18 +202,11 @@ a:hover {
   padding: 0;
   display: flex;
   justify-content: center;
-  color: rgb(7, 22, 231);
+  color: #ffffff;
 }
 
 #contact-info:hover {
-  color: rgb(255, 255, 255);
-}
-
-#close-modal:hover,
-#close-modal_port:hover {
-  background: rgba(255, 0, 0, 0.815);
-  color: #fff;
-
+  color: #384086;
 }
 
 
@@ -243,7 +248,7 @@ a:hover {
 }
 
 .project_link a:hover {
-  color: rgb(18, 59, 192);
+  color: #384086;
 }
 
 strong {
@@ -266,7 +271,7 @@ strong {
 
   .recentWork {
     margin: 0 auto;
-    background-color: #99D930;
+    background-color: #384086;
     width: 50vw;
   }
 
@@ -280,7 +285,10 @@ strong {
   }
 
   a {
-    color: blue;
+    color: #ffffff;
+  }
+  a:hover {
+    color: #c9c749;
   }
  
   h2 {
