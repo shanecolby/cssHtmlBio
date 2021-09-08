@@ -125,12 +125,13 @@ section {
   padding: 0 1.25rem 0 1.35rem;
   text-align: center;
   text-transform: uppercase;
+  transition: 500ms;
 }
 
 .btn:hover,
 .btn:focus {
   color: #fff;
-  background: #252525;
+  background-color: #252525;
 }
 
 #contactDetails-btn {
