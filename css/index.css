@@ -126,7 +126,10 @@ section {
   text-align: center;
   text-transform: uppercase;
   transition: 500ms;
+  transform: scale(1);
 }
+
+ 
 
 .btn:hover,
 .btn:focus {
@@ -135,7 +138,13 @@ section {
 }
 
 #contactDetails-btn {
+  transform: scale(1);
   margin-top: 3em;
+}
+
+#contactDetails-btn:hover {
+  transform: scale(1.2);
+  
 }
 
 #close-modal {
@@ -244,7 +253,7 @@ a:hover {
   font-weight: 800;
   display: flex;
   justify-content: center;
- 
+  
 
   
 }
